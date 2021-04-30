@@ -1,7 +1,7 @@
 import json,time
 from flask import Flask, render_template, request, jsonify, Response
 import requests
-import base64,cv2
+import base64
 
 
 app=Flask(__name__)
